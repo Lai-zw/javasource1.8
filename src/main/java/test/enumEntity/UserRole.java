@@ -5,5 +5,4 @@ public enum UserRole {
     ROLE_ORDER_ADMIN, // 订单管理员
     ROLE_NORMAL       // 普通用户
 
-    
 }
