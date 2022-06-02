@@ -411,6 +411,7 @@ public class ThreadLocal<T> {
          * @return the entry associated with key, or null if no such
          */
         private Entry getEntry(ThreadLocal<?> key) {
+            // 等价于 int i = key.threadLocalHashCode % table.length;
             int i = key.threadLocalHashCode & (table.length - 1);
             Entry e = table[i];
             if (e != null && e.get() == key)
@@ -437,6 +438,7 @@ public class ThreadLocal<T> {
                 if (k == key)
                     return e;
                 if (k == null)
+                    // 回收 key 为 null 的值
                     expungeStaleEntry(i);
                 else
                     i = nextIndex(i, len);
