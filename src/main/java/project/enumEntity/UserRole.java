@@ -1,4 +1,4 @@
-package test.enumEntity;
+package project.enumEntity;
 
 public enum UserRole {
     ROLE_ROOT_ADMIN,  // 系统管理员

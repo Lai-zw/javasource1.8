@@ -20,7 +20,6 @@
 
 package com.sun.org.apache.xerces.internal.impl ;
 
-import com.sun.org.apache.xerces.internal.impl.io.ASCIIReader;
 import com.sun.org.apache.xerces.internal.impl.io.UCSReader;
 import com.sun.org.apache.xerces.internal.impl.io.UTF16Reader;
 import com.sun.org.apache.xerces.internal.impl.io.UTF8Reader;
@@ -1582,10 +1581,10 @@ public class XMLEntityManager implements XMLComponent, XMLEntityResolver {
             addInternalEntity("recursive-entity2", "<bar>&recursive-entity3;</bar>");
             addInternalEntity("recursive-entity3", "<baz>&recursive-entity;</baz>");
             try {
-                addExternalEntity("external-text", null, "external-text.ent", "test/external-text.xml");
-                addExternalEntity("external-balanced-element", null, "external-balanced-element.ent", "test/external-balanced-element.xml");
-                addExternalEntity("one", null, "ent/one.ent", "test/external-entity.xml");
-                addExternalEntity("two", null, "ent/two.ent", "test/ent/one.xml");
+                addExternalEntity("external-text", null, "external-text.ent", "project/external-text.xml");
+                addExternalEntity("external-balanced-element", null, "external-balanced-element.ent", "project/external-balanced-element.xml");
+                addExternalEntity("one", null, "ent/one.ent", "project/external-entity.xml");
+                addExternalEntity("two", null, "ent/two.ent", "project/ent/one.xml");
             }
             catch (IOException ex) {
                 // should never happen

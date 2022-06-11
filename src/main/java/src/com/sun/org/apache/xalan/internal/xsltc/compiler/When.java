@@ -43,7 +43,7 @@ final class When extends Instruction {
         indent(indent);
         Util.println("When");
         indent(indent + IndentIncrement);
-        System.out.print("test ");
+        System.out.print("project ");
         Util.println(_test.toString());
         displayContents(indent + IndentIncrement);
     }
@@ -57,7 +57,7 @@ final class When extends Instruction {
     }
 
     public void parseContents(Parser parser) {
-        _test = parser.parseExpression(this, "test", null);
+        _test = parser.parseExpression(this, "project", null);
 
         // Ignore xsl:if when test is false (function-available() and
         // element-available())
@@ -70,7 +70,7 @@ final class When extends Instruction {
 
         // Make sure required attribute(s) have been set
         if (_test.isDummy()) {
-            reportError(this, parser, ErrorMsg.REQUIRED_ATTR_ERR, "test");
+            reportError(this, parser, ErrorMsg.REQUIRED_ATTR_ERR, "project");
         }
     }
 

@@ -1,4 +1,4 @@
-package test.enumEntity;
+package project.enumEntity;
 
 public enum RoleEnum implements RoleOperation {
     ROLE_ROOT_ADMIN{

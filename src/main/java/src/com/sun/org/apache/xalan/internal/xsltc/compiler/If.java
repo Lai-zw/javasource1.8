@@ -48,7 +48,7 @@ final class If extends Instruction {
         indent(indent);
         Util.println("If");
         indent(indent + IndentIncrement);
-        System.out.print("test ");
+        System.out.print("project ");
         Util.println(_test.toString());
         displayContents(indent + IndentIncrement);
     }
@@ -58,11 +58,11 @@ final class If extends Instruction {
      */
     public void parseContents(Parser parser) {
         // Parse the "test" expression
-        _test = parser.parseExpression(this, "test", null);
+        _test = parser.parseExpression(this, "project", null);
 
         // Make sure required attribute(s) have been set
         if (_test.isDummy()) {
-            reportError(this, parser, ErrorMsg.REQUIRED_ATTR_ERR, "test");
+            reportError(this, parser, ErrorMsg.REQUIRED_ATTR_ERR, "project");
             return;
         }
 

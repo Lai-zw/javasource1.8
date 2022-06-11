@@ -399,7 +399,7 @@ final class Predicate extends Expression implements Closure {
                                         "translet",
                                         "iterator"
                                     },
-                                    "test", _className, il, cpg);
+                "project", _className, il, cpg);
 
         // Store the dom in a local variable
         local = testGen.addLocalVariable("document",

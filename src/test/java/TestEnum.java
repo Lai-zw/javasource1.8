@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
-import test.enumEntity.JudgeRole;
-import test.enumEntity.User;
-import test.enumEntity.UserRole;
+import project.enumEntity.JudgeRole;
+import project.enumEntity.User;
+import project.enumEntity.UserRole;
 
 import java.util.ArrayList;
 import java.util.EnumMap;

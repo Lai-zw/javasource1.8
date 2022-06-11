@@ -1,4 +1,4 @@
-package test.enumEntity;
+package project.enumEntity;
 
 public class JudgeRole {
     public String judge( String roleName ) {

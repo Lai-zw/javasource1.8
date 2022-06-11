@@ -1,4 +1,4 @@
-package test.enumEntity;
+package project.enumEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
