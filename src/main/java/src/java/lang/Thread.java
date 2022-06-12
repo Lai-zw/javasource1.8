@@ -1135,8 +1135,8 @@ class Thread implements Runnable {
     /**
      * Returns this thread's name.
      *
-     * @return  this thread's name.
-     * @see     #setName(String)
+     * @return this thread's name.
+     * @see #setName(String)
      */
     public final String getName() {
         return name;
