@@ -25,9 +25,7 @@
 
 package java.lang.instrument;
 
-import  java.io.File;
-import  java.io.IOException;
-import  java.util.jar.JarFile;
+import java.util.jar.JarFile;
 
 /*
  * Copyright 2003 Wily Technology, Inc.
