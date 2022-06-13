@@ -1,5 +1,8 @@
 package demo.future;
 
+import com.google.common.base.Stopwatch;
+import org.apache.log4j.Logger;
+
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
@@ -7,7 +10,10 @@ import java.util.concurrent.TimeUnit;
 public class FutureAPIlDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        long startTime = System.currentTimeMillis();
+        final Logger log = Logger.getLogger(FutureAPIlDemo.class);
+        Stopwatch watch = Stopwatch.createStarted();
+
+        log.info("--- 测试开始 ---");
 
         FutureTask<String> futureTask = new FutureTask<>(() -> {
             System.out.println(Thread.currentThread().getName() + "\t--- come in ---");
@@ -34,9 +40,8 @@ public class FutureAPIlDemo {
             }
         }
 
-        long endTime = System.currentTimeMillis();
-        System.out.println("costTime: " + (endTime - startTime) + "毫秒");
+        watch.stop();
+        log.info("--- 测试结束 --- 用时：" + watch.elapsed(TimeUnit.MILLISECONDS));
 
     }
-
 }
