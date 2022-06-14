@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class TestStream {
+public class StreamTest {
 
     @Test
     public void test01() {
@@ -24,7 +24,7 @@ public class TestStream {
         list.add("ddd");
         list.add("eee");
         list.add("fff");
-        list.parallelStream().map(TestStream::convertElement).forEach(System.out::println);
+        list.parallelStream().map(StreamTest::convertElement).forEach(System.out::println);
 
         // 连接两个 Stream ，不改变其中任何一个 Steam 对象，返回一个新的 Stream 对象
         Stream<String> a = Stream.of("a", "b", "c");

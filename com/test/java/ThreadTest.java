@@ -16,7 +16,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @version : v1.0
  * @className : TestThread
  */
-public class TestThread {
+public class ThreadTest {
 
     class MyThread implements Runnable {
         // 对象中的数据由线程共享
@@ -70,7 +70,7 @@ public class TestThread {
     @Test
     public void test06() throws InterruptedException {
         Thread t = new Thread(() -> {
-            synchronized (TestThread.class) {
+            synchronized (ThreadTest.class) {
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {

@@ -8,7 +8,7 @@ import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.Map;
 
-public class TestEnum {
+public class EnumTest {
     @Test
     public void test01() {
         JudgeRole judgeRole = new JudgeRole();

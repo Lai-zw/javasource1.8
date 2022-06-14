@@ -13,9 +13,9 @@ import java.util.concurrent.TimeUnit;
  * @version : v1.0
  * @className : TestThread
  */
-public class TestCollections {
+public class CollectionsTest {
 
-    private static final Logger log = Logger.getLogger(TestCollections.class);
+    private static final Logger log = Logger.getLogger(CollectionsTest.class);
     StopWatch watch = new StopWatch();
 
     @BeforeEach
