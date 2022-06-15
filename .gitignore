@@ -6,7 +6,6 @@ target/
 mvnw
 mvnw.cmd
 .mvn
-.iml
 
 ### STS ###
 .apt_generated
@@ -18,7 +17,7 @@ mvnw.cmd
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr

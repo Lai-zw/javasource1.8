@@ -1,4 +1,4 @@
-package demo.future;
+package demo.thread.future;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;

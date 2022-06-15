@@ -1,4 +1,4 @@
-package demo.future;
+package demo.thread.future;
 
 import com.google.common.base.Stopwatch;
 import org.apache.log4j.Logger;

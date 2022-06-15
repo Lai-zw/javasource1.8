@@ -1,4 +1,4 @@
-package project.enumEntity;
+package project.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

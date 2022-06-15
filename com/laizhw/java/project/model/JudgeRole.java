@@ -1,4 +1,4 @@
-package project.enumEntity;
+package project.model;
 
 public class JudgeRole {
     public String judge( String roleName ) {
