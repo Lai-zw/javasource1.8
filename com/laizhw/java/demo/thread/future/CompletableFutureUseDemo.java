@@ -14,7 +14,7 @@ public class CompletableFutureUseDemo {
                 System.out.println("Thread.currentThread().getName() = " + Thread.currentThread().getName());
                 int result = ThreadLocalRandom.current().nextInt(10);
                 if (result > 5) {
-                    int i = 10 / 0;
+                    throw new RuntimeException();
                 }
                 return result;
             }, threadPool).whenComplete((v, e) -> {
