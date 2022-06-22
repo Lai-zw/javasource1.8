@@ -1,4 +1,4 @@
-package demo.lock;
+package demo.thread.lock;
 
 
 public class LockSyncDemo {
