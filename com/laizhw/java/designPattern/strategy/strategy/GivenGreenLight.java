@@ -1,4 +1,6 @@
-package designPattern.strategy;
+package designPattern.strategy.strategy;
+
+import designPattern.strategy.IStrategy;
 
 /**
  * TODO
@@ -7,7 +9,7 @@ package designPattern.strategy;
  * @version : v1.0
  * @className : BackDoor
  */
-public class GivenGreenLight implements IStrategy{
+public class GivenGreenLight implements IStrategy {
     @Override
     public void operate() {
 

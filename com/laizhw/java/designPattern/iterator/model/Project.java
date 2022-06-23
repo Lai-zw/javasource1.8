@@ -1,4 +1,8 @@
-package designPattern.iterator;
+package designPattern.iterator.model;
+
+import designPattern.iterator.IProject;
+import designPattern.iterator.IProjectIterator;
+import designPattern.iterator.ProjectIterator;
 
 import java.util.ArrayList;
 

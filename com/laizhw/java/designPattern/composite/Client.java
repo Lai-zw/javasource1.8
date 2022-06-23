@@ -1,5 +1,8 @@
 package designPattern.composite;
 
+import designPattern.composite.model.Branch;
+import designPattern.composite.model.Leaf;
+
 import java.util.ArrayList;
 
 /**

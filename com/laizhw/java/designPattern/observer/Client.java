@@ -1,5 +1,9 @@
 package designPattern.observer;
 
+import designPattern.observer.model.LiSi;
+import designPattern.observer.model.LiuSi;
+import designPattern.observer.model.WangSi;
+
 import java.util.Observer;
 
 /**

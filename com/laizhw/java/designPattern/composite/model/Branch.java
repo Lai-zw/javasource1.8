@@ -1,4 +1,6 @@
-package designPattern.composite;
+package designPattern.composite.model;
+
+import designPattern.composite.Corp;
 
 import java.util.ArrayList;
 

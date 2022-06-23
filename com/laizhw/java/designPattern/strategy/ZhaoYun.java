@@ -1,5 +1,9 @@
 package designPattern.strategy;
 
+import designPattern.strategy.strategy.BackDoor;
+import designPattern.strategy.strategy.BlockEnemy;
+import designPattern.strategy.strategy.GivenGreenLight;
+
 /**
  * TODO
  *
