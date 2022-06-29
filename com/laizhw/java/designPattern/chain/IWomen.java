@@ -1,4 +1,4 @@
-package designPattern.chainOfResponsibility;
+package designPattern.chain;
 
 public interface IWomen {
     //获得个人状况

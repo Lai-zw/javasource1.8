@@ -1,4 +1,4 @@
-package designPattern.chainOfResponsibility;
+package designPattern.chain;
 
 public interface IHandler {
 

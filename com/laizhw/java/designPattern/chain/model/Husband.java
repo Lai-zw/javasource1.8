@@ -1,7 +1,7 @@
-package designPattern.chainOfResponsibility.model;
+package designPattern.chain.model;
 
-import designPattern.chainOfResponsibility.Handler;
-import designPattern.chainOfResponsibility.IWomen;
+import designPattern.chain.Handler;
+import designPattern.chain.IWomen;
 
 /**
  * TODO

@@ -1,9 +1,9 @@
-package designPattern.chainOfResponsibility;
+package designPattern.chain;
 
-import designPattern.chainOfResponsibility.model.Father;
-import designPattern.chainOfResponsibility.model.Husband;
-import designPattern.chainOfResponsibility.model.Son;
-import designPattern.chainOfResponsibility.model.Women;
+import designPattern.chain.model.Father;
+import designPattern.chain.model.Husband;
+import designPattern.chain.model.Son;
+import designPattern.chain.model.Women;
 
 import java.util.ArrayList;
 import java.util.Random;

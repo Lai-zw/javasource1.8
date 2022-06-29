@@ -1,6 +1,6 @@
-package designPattern.chainOfResponsibility.model;
+package designPattern.chain.model;
 
-import designPattern.chainOfResponsibility.IWomen;
+import designPattern.chain.IWomen;
 
 public class Women implements IWomen {
     /* * 通过一个int类型的参数来描述妇女的个人状况
